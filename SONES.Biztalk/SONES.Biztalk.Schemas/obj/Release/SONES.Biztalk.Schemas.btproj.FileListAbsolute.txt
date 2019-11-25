@@ -1,0 +1,4 @@
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Schemas\bin\Release\SONES.Biztalk.Schemas.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Schemas\bin\Release\SONES.Biztalk.Schemas.pdb
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Schemas\obj\Release\SONES.Biztalk.Schemas.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Schemas\obj\Release\SONES.Biztalk.Schemas.pdb

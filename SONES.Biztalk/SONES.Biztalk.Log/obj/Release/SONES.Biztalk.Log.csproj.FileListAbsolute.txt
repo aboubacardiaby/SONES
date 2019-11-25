@@ -1,0 +1,6 @@
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\bin\Release\SONES.Biztalk.Log.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\bin\Release\SONES.Biztalk.Log.pdb
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\bin\Release\Microsoft.XLANGs.BaseTypes.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\obj\Release\SONES.Biztalk.Log.csprojResolveAssemblyReference.cache
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\obj\Release\SONES.Biztalk.Log.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Log\obj\Release\SONES.Biztalk.Log.pdb

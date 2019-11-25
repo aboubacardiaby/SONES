@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLDIR">
+            <Directory Id="dir2EC3ABA678957D7DE454051F69BB86AD" Name="Deployment" />
+            <Directory Id="dir0600CD878060E2C36E994546EC6FBA73" Name="DeployResults" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="RedistComponentGroup">
+            <Component Id="cmpFC1FB0E149EEEB40C1242162FD0B64D5" Directory="INSTALLDIR" Guid="{39DC689D-1976-45ED-BF0A-8652C696E35B}">
+                <File Id="filE992EA018C60AE69BAE719DC8DB53A07" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Log.dll" />
+            </Component>
+            <Component Id="cmp42C62E57F89D87D53D14141E883B78B7" Directory="INSTALLDIR" Guid="{F0D5C810-4D4D-4500-A116-41F25759FC80}">
+                <File Id="filDB0A15CCAF9EA70DF56C051500E50D79" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Log.pdb" />
+            </Component>
+            <Component Id="cmp6B79DD573E774BCC60CE1D0FAA097757" Directory="INSTALLDIR" Guid="{CF331097-ECF6-4C35-8A0C-74E99B1933CF}">
+                <File Id="filFA89926925576802298C392FC4593368" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Orchestrations.dll" />
+            </Component>
+            <Component Id="cmp7CD393A1A4AFA1AD4859722C8029B925" Directory="INSTALLDIR" Guid="{1D47B1B6-BB7D-45C3-ABCB-64C6761074E7}">
+                <File Id="fil31972A9D6983B8058F1578C3E00765DA" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Orchestrations.pdb" />
+            </Component>
+            <Component Id="cmp9938F301880537B9BBB9DE63550FCA13" Directory="INSTALLDIR" Guid="{5FEC2EA6-8D51-422D-9870-39526E26D6DC}">
+                <File Id="fil8BE97C64526A261BA9AC716B2FEE8ED2" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Schemas.dll" />
+            </Component>
+            <Component Id="cmp4A12EB41231A1245D85177ACB5A99DF8" Directory="INSTALLDIR" Guid="{0824A0D5-16F4-472F-867D-9782BBBA1B51}">
+                <File Id="fil5435109F20CA3BE45C294CD41C588D24" KeyPath="yes" Source="$(var.redist_folder)\SONES.Biztalk.Schemas.pdb" />
+            </Component>
+            <Component Id="cmp990E7F26EB85BBD858A7475B770261EB" Directory="dir2EC3ABA678957D7DE454051F69BB86AD" Guid="{A1D8E62F-EDB6-4473-9024-4AAA2C2DC1D4}">
+                <File Id="fil5AA33FE07CA28CDEC12D7FC199C89AD1" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Deployment.btdfproj" />
+            </Component>
+            <Component Id="cmpE93E4B64E827F25E67D29EF7A05B9898" Directory="dir2EC3ABA678957D7DE454051F69BB86AD" Guid="{9829E4E5-6D29-4853-B8AD-5A0B5FA32453}">
+                <File Id="fil3272C0CB94A97333837EC5BF1B9B46E0" KeyPath="yes" Source="$(var.redist_folder)\Deployment\InstallWizard.xml" />
+            </Component>
+            <Component Id="cmpA93607EDD146828B6C15C078AD7ACBEF" Directory="dir2EC3ABA678957D7DE454051F69BB86AD" Guid="{563FF0E3-4226-4445-A259-5478369F3706}">
+                <File Id="filAF21BE3791B74A6D9ACC620813E3F6BF" KeyPath="yes" Source="$(var.redist_folder)\Deployment\PortBindingsMaster.xml" />
+            </Component>
+            <Component Id="cmp0CBBFA0E1FAC0556B6A245639A1CE522" Directory="dir2EC3ABA678957D7DE454051F69BB86AD" Guid="{5770D159-102D-4081-B9B0-C0E5DA3B7CA0}">
+                <File Id="fil97E43CC450C6F4009C4A958889A466AD" KeyPath="yes" Source="$(var.redist_folder)\Deployment\UninstallWizard.xml" />
+            </Component>
+            <Component Id="cmp6E4F8E808688E93B1BA1AADBECF13B60" Directory="dirCF932445B1590C7BEBA34D845739DCFE" Guid="{CF42BE93-BA91-4943-8650-82EE0334CE61}">
+                <File Id="filC6C605DF3F80BBA49C1412CCE5F5C4FD" KeyPath="yes" Source="$(var.redist_folder)\Deployment\EnvironmentSettings\SettingsFileGenerator.xml" />
+            </Component>
+            <Component Id="cmp6EFCB4DD2F90437585283CC545CCE008" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{DEC7DD38-4FE4-4381-A1A1-229116EA2CAC}">
+                <File Id="fil49B55BEB4F2177DFD0DC16306167ED6B" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.ServerExecute.targets" />
+            </Component>
+            <Component Id="cmp2A5FE5632531824D191B06274CA1DFAA" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{687E088E-62B0-4764-8DE9-C6681198E15F}">
+                <File Id="fil18C21DF86E45BCEFE97E7BFE8FEB9D9D" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.targets" />
+            </Component>
+            <Component Id="cmp2BBD6811B19B427F16F13C36C07EA212" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{AC723C5A-11E3-4A22-AE03-26360B074C2B}">
+                <File Id="fil96C2A8E0000F9B5905A5CC05AF41D08F" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.Tasks.BizTalk.dll" />
+            </Component>
+            <Component Id="cmp3ACB114E4BED28DBCD8C601DA8D3E042" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{B574E604-2FD0-4706-BFE8-C592BB4D4167}">
+                <File Id="fil429EF21B03C5FF15A549119E2CA27925" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.Tasks.dll" />
+            </Component>
+            <Component Id="cmp566B5CB3F26AA5BDDC3D00D1C649F6C3" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{BA3F3335-522C-4EC4-99E8-3ADCA4A0E289}">
+                <File Id="fil8962089F658426C2F17608F844015EAE" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.Tasks.IIS.dll" />
+            </Component>
+            <Component Id="cmp926B1E42110620143A26071867B78B3C" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{A3F26A7A-388D-46A9-81D7-7F883B17C29F}">
+                <File Id="fil0E49DA60337C1FE3D1C30087399A9F47" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\BizTalkDeploymentFramework.WiXSetup.targets" />
+            </Component>
+            <Component Id="cmpD81E70D6B94FDBA10A9DB52EAAEB74E0" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{A1B63E8D-5E4C-49CB-BEA6-6B6EB590FD29}">
+                <File Id="filB10240244C75F6349BCFBC6509CA67C8" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\Microsoft.Sdc.Common.tasks" />
+            </Component>
+            <Component Id="cmp5306F1766B42F24CB5CB397FEE883AF6" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{C9C5C722-6713-4D93-9F0E-6B02A4B9E4FC}">
+                <File Id="fil4B1C2E81E4E8246D3016AC6B92091D3C" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\Microsoft.Sdc.Tasks.dll" />
+            </Component>
+            <Component Id="cmpABF32399A22CCF6553B828B7F5AE2911" Directory="dirBCE94CB674583A642AAA1D83B90FF90E" Guid="{4952B00A-1FC2-4FC0-B917-B4428B9D8C16}">
+                <File Id="filF46E3E45F34C18CA6351488D1962C8BF" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\Microsoft.Web.Administration.dll" />
+            </Component>
+            <Component Id="cmpA370FF6534BCE57609BC6AA185CEE65E" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{01CDC829-0F25-4B43-B5D0-B1BB67B56630}">
+                <File Id="fil2C047F43D5C3AC903B32D473743E379A" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\adapterXPaths.txt" />
+            </Component>
+            <Component Id="cmpA6FD814B858F7DF82A0BB21381288D95" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{41E7C83E-9458-4BA3-A5B6-836256F34FE2}">
+                <File Id="fil32DCA2DF3127000FDB078B584784D3A3" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\DeployBTRules.exe" />
+            </Component>
+            <Component Id="cmp3C9834D55A9C42E5F48457A326D47C45" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{B1576476-63B4-4FE1-ADD8-B113751F3490}">
+                <File Id="filC83D79E1685E7AA9B3E7620AB4234C6D" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\DeployBTRules.exe.config" />
+            </Component>
+            <Component Id="cmpB397AB0D2881C037BD25A41385AA0D91" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{2B09978E-F573-465F-A670-78C672518259}">
+                <File Id="filAAC6098AB1DB6755BCAFA0E060BB80EE" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\ElementTunnel.exe" />
+            </Component>
+            <Component Id="cmp6472966E44A07121A7716429416253AF" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{A56B05E7-697D-448D-B564-FF2C26580A24}">
+                <File Id="fil5218582C0B0F4BF107218ADE1CCE1D1B" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\EnvironmentSettingsExporter.exe" />
+            </Component>
+            <Component Id="cmp9A32F66E5ACEA5373742403CBB6F6804" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{B68C6FA1-1C25-4A1D-91A3-C6CA7BDF7ED1}">
+                <File Id="filEEAC95F7C57E960D0D1B4252AA495716" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\ExportBamDefinitionXml.exe" />
+            </Component>
+            <Component Id="cmpC8F501C93119B653814B2B3DE1889F56" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{D456B54B-CB59-4E25-ADF9-69E8EFB90A82}">
+                <File Id="fil504865C76F8DC0613D5E8D08F4C32E05" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\GacUtil.exe" />
+            </Component>
+            <Component Id="cmp5DB0D46DC8E75B6CDBBA10514025714B" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{72E118C0-1DF9-4C0B-A277-1B75585704CE}">
+                <File Id="filA115A9B8F6C016ED4B889C1A9C2181CB" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\GacUtil.exe.config" />
+            </Component>
+            <Component Id="cmp1BFC9121A7C70813D4DC4182E568615A" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{BB6DA427-2DB5-4A16-83D0-ECC48F4C8ACB}">
+                <File Id="fil10D7BCC4D86A0DE026D140625FBD8884" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\GacUtlRC.dll" />
+            </Component>
+            <Component Id="cmpE40ED1490E88E42B2F7307C6942A572C" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{D498382C-5550-422D-A5C0-F10ACF3516F3}">
+                <File Id="fil6278AD23E342AAB832E9E90C4BAEDCA5" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\log4net.dll" />
+            </Component>
+            <Component Id="cmp29707011793A71356890BD731F765119" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{6872DF30-50A5-4A02-8701-EB6235743808}">
+                <File Id="fil39372C8F6B3CEE97E95D04D73D62A075" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\log4net.Ext.Serializable.dll" />
+            </Component>
+            <Component Id="cmp3828CAC9F3D461E3E42E4B44848C174D" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{25BF7F74-0483-43B8-84EB-192E6055FEAB}">
+                <File Id="fil15C9C96B4BA978156634916F0516A3D8" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\SetEnvUI.exe" />
+            </Component>
+            <Component Id="cmpD0AB8FAD5412CFE0B39645836E993AB5" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{7C3B35FF-D4FD-4DBF-B415-62C6DEBAFF06}">
+                <File Id="fil5DC0D7092EA9662DDFDAE60951FF637C" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\SetEnvUIConfig.xsd" />
+            </Component>
+            <Component Id="cmp3ABEF20835D15B8D7BB4B38147489E0D" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{8E39AC10-B5A4-40E8-80EB-259FF70658BF}">
+                <File Id="filD3EEAC4E537181C26143785642E935A0" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\SSOSettingsEditor.exe"><?if $(var.CreateStartMenuShortcuts) ~= True And $(var.IncludeSSOEditorShortcut) ~= True?><Shortcut Id="SSOSettingsEditorShortcut" Directory="BizShortCutsTools" Name="Edit SSO Settings" Arguments="&quot;$(var.BizTalkAppName)&quot;" WorkingDirectory="INSTALLDIR" Advertise="yes" /><?endif?></File>
+            </Component>
+            <Component Id="cmp63610C27EE8C9DCDA551663C7F3B3CD1" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{83C6ABB6-4929-498C-AC8A-EA336964A971}">
+                <File Id="filB8300AB205BB2B6C07E53874AFBC4D04" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\SSOSettingsFileImport.exe" />
+            </Component>
+            <Component Id="cmp7B55627FE348A0A1DC7C24219F784E78" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{E9595165-4694-480B-98DE-2940ECDC9680}">
+                <File Id="fil954A4A79C8B0F7D4D9B258EFA59638D2" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\SSOSettingsFileReader.dll" />
+            </Component>
+            <Component Id="cmp6835237E998243BDE26A40BE535310CC" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{A2A5BE3B-CD20-45D2-AB52-005B279B7A83}">
+                <File Id="fil9321EBB70879A483E1D7E41E738D1947" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\UacElevate.exe"><?if $(var.CreateStartMenuShortcuts) ~= True?><Shortcut Id="DeployShortcut" Directory="BizShortCuts" Name="Deploy $(var.PackageDescription)" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server /t:LaunchServerDeployWizard $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="ReDeployShortcut" Directory="BizShortCuts" Name="Redeploy $(var.PackageDescription)" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server /t:LaunchServerRedeployWizard $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="UnDeployShortcut" Directory="BizShortCuts" Name="Undeploy $(var.PackageDescription)" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server /t:LaunchServerUndeployWizard $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="QuickDeployShortcut" Directory="BizShortCutsTools" Name="Quick Deploy" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server /t:LaunchServerQuickDeploy $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="BounceShortcut" Directory="BizShortCutsTools" Name="Bounce BizTalk" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;Interactive=true /t:BounceBizTalk $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="TerminateInstancesShortcut" Directory="BizShortCutsTools" Name="Terminate Service Instances" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;Interactive=true /t:TerminateServiceInstances $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="ImportBindingsShortcut" Directory="BizShortCutsTools" Name="Import Bindings" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;Interactive=true /t:ImportBindings $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><Shortcut Id="PreprocessAndImportBindingsShortcut" Directory="BizShortCutsTools" Name="Preprocess and Import Bindings" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;Interactive=true /t:PreprocessAndImportBindings $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><?endif?><?if $(var.CreateStartMenuShortcuts) ~= True And $(var.IncludeDeployRulesShortcut) ~= True?><Shortcut Id="RedeployRulesShortcut" Directory="BizShortCutsTools" Name="Redeploy Rules Policies and Vocabularies" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;ExplicitlyDeployRulePoliciesOnDeploy=true;Interactive=true /t:DeployVocabAndRules $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><?endif?><?if $(var.CreateStartMenuShortcuts) ~= True And $(var.IncludeSSOEditorShortcut) ~= True?><Shortcut Id="ImportSSOShortcut" Directory="BizShortCutsTools" Name="Update SSO from Settings Spreadsheet" Arguments="&quot;[MSBUILDPATH]&quot; &quot;/p:Configuration=Server;Interactive=true /t:DeploySSO $(var.ProjectFilename) [MSBUILDTOOLSVER]&quot;" WorkingDirectory="DEPLOYMENTDIR" Advertise="yes" /><?endif?></File>
+            </Component>
+            <Component Id="cmpA01CAD19FDC985746950081BE2E7B558" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{10797B1D-4D11-4863-A25C-EC360F95F30D}">
+                <File Id="fil5A965716742953F655F0A018740C653F" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\WriteRegValue.vbs" />
+            </Component>
+            <Component Id="cmpDC510848557745A852E334A62B5027D2" Directory="dir46B11F06FC037092461C8CC5D32A7FE5" Guid="{D3DF61F1-33E0-4539-8754-392ED588D17E}">
+                <File Id="filA23270EA6AF8E2AD9557AB1FCE6C1B0E" KeyPath="yes" Source="$(var.redist_folder)\Deployment\Framework\DeployTools\XmlPreprocess.exe" />
+            </Component>
+            <Component Id="cmp6B92E66618B5363F4F5398480BA98802" Directory="dir0600CD878060E2C36E994546EC6FBA73" Guid="{A95B58CB-312C-4BA9-89A5-0F71721AB8FE}" KeyPath="yes">
+                <CreateFolder />
+            <RemoveFile Name="*.txt" On="uninstall" Id="dir0600CD878060E2C36E994546EC6FBA73" /></Component>
+        <Component Id="cmp3d8c37ba1d24404ab25624671c1cc9e5" Directory="dirCF932445B1590C7BEBA34D845739DCFE" Guid="{4c31ee7a-1112-4e4a-b602-430b6e3029eb}" KeyPath="yes"><RemoveFile Name="*.xml" On="uninstall" Id="dirCF932445B1590C7BEBA34D845739DCFE" /></Component><Component Id="cmpec07b94ed0f94728b8ffaee380740e75" Directory="dir2EC3ABA678957D7DE454051F69BB86AD" Guid="{f140135d-b477-4f2d-95da-94a38b990f5e}" KeyPath="yes"><RemoveFile Name="PortBindings.xml" On="uninstall" Id="dir2EC3ABA678957D7DE454051F69BB86AD" /></Component></ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBCE94CB674583A642AAA1D83B90FF90E">
+            <Directory Id="dir46B11F06FC037092461C8CC5D32A7FE5" Name="DeployTools" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2EC3ABA678957D7DE454051F69BB86AD">
+            <Directory Id="dirBCE94CB674583A642AAA1D83B90FF90E" Name="Framework" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2EC3ABA678957D7DE454051F69BB86AD">
+            <Directory Id="dirCF932445B1590C7BEBA34D845739DCFE" Name="EnvironmentSettings" />
+        </DirectoryRef>
+    </Fragment>
+</Wix>

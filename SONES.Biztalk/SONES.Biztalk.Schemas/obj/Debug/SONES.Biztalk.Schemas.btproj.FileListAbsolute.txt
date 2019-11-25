@@ -1,0 +1,4 @@
+C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Schemas\bin\Debug\SONES.Biztalk.Schemas.dll
+C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Schemas\bin\Debug\SONES.Biztalk.Schemas.pdb
+C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Schemas\obj\Debug\SONES.Biztalk.Schemas.dll
+C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Schemas\obj\Debug\SONES.Biztalk.Schemas.pdb

@@ -1,0 +1,6 @@
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Release\SONES.Biztalk.Orchestrations.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Release\SONES.Biztalk.Orchestrations.pdb
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Release\SONES.Biztalk.Log.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Release\SONES.Biztalk.Schemas.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\obj\Release\SONES.Biztalk.Orchestrations.dll
+C:\TeamCity\buildAgent\work\7694d3a4ee0917d4\SONES.Biztalk\SONES.Biztalk.Orchestrations\obj\Release\SONES.Biztalk.Orchestrations.pdb
