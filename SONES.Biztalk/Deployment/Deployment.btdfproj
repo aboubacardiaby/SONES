@@ -14,7 +14,9 @@
     <IncludeSchemas>True</IncludeSchemas>
     <IncludeOrchestrations>True</IncludeOrchestrations>
     <IncludeTransforms>false</IncludeTransforms>
+    <IncludePipelineComponents>true</IncludePipelineComponents>
     <IncludeComponents>true</IncludeComponents>
+    <IncludePipelines>true</IncludePipelines>
     <UsingMasterBindings>True</UsingMasterBindings>
     <RequireXmlPreprocessDirectives>False</RequireXmlPreprocessDirectives>
     <ApplyXmlEscape>True</ApplyXmlEscape>
@@ -77,6 +79,22 @@
       <LocationPath>..\SONES.Biztalk.Log\bin\$(Configuration)</LocationPath>
     </Components>
   </ItemGroup>
+  <ItemGroup>
+    <Pipelines Include="Sones.CustomPipelines.dll">
+      <LocationPath >..\Sones.CustomPipelines\bin\$(Configuration)</LocationPath>
+    </Pipelines>
+  </ItemGroup>
+  <ItemGroup>
+    <Components Include="Sones.Library.dll">
+      <LocationPath>..\Sones.Library\bin\$(Configuration)</LocationPath>
+    </Components>
+  </ItemGroup>
+  <ItemGroup>
+    <PipelineComponents Include="Sones.PipelineComponents.dll">
+      <LocationPath>..\SONES.PipelineComponents\bin\$(Configuration)</LocationPath>
+    </PipelineComponents>
+  </ItemGroup>
+ 
   <!-- !!! TODO !!! -->
   <Import Project="$(DeploymentFrameworkTargetsPath)BizTalkDeploymentFramework.targets" />
   <!--

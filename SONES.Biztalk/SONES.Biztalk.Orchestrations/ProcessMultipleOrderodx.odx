@@ -1,0 +1,162 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="91871e04-6668-4f87-a415-f1e584367278" LowerBound="1.1" HigherBound="39.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="SONES.Biztalk.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="ServiceDeclaration" OID="73791b38-1c6f-45e9-8824-301d8c7ad127" ParentLink="Module_ServiceDeclaration" LowerBound="4.1" HigherBound="38.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ProcessMultipleOrderodx" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="VariableDeclaration" OID="6e9e025c-b49d-404d-a455-28959037f714" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="11.1" HigherBound="12.1">
+                <om:Property Name="InitialValue" Value="1" />
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.Int32" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="currentSplit" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="88be4c59-6a7f-4faa-a788-64d4b9a7e9d4" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="12.1" HigherBound="13.1">
+                <om:Property Name="InitialValue" Value="2" />
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.Int32" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="numberofSplit" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="3cca3521-9d49-4fa1-bc68-1b81de0050d2" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="13.1" HigherBound="14.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="Sones.Library.SalesOrderSplitter" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Methodloader" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="9445751f-2635-4ee8-a52d-4e7c36a74842" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="9.1" HigherBound="10.1">
+                <om:Property Name="Type" Value="SONES.Biztalk.Schemas.Customer" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="InputMsg" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="cb58f746-4b76-421f-aae2-296a42b96871" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="10.1" HigherBound="11.1">
+                <om:Property Name="Type" Value="SONES.Biztalk.Schemas.Customer" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SingleMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="f74691ee-bb60-4271-bc73-2fcd3f203eb1" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="549c848a-53ac-42a5-8e21-40c75dbbf20e" ParentLink="ServiceBody_Statement" LowerBound="16.1" HigherBound="21.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="Rcv_Multiple_address" />
+                    <om:Property Name="MessageName" Value="InputMsg" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_1" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="DNFPredicate" OID="3d5266b4-9a11-40f9-81a6-ce30ff18f403" ParentLink="Receive_DNFPredicate">
+                        <om:Property Name="LHS" Value="SONES.Biztalk.Schemas.PropertySchema.StreamSize" />
+                        <om:Property Name="RHS" Value="&quot;0&quot;" />
+                        <om:Property Name="Grouping" Value="AND" />
+                        <om:Property Name="Operator" Value="GreaterThanOrEquals" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="While" OID="f64f3bf6-6eec-405b-b6d6-abfd696b04de" ParentLink="ServiceBody_Statement" LowerBound="21.1" HigherBound="36.1">
+                    <om:Property Name="Expression" Value="currentSplit &lt;= numberofSplit " />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Loop_1" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Construct" OID="e555f816-c009-42de-ad0d-ec76b6f167ce" ParentLink="ComplexStatement_Statement" LowerBound="24.1" HigherBound="33.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="ConstructMessage_1" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="MessageAssignment" OID="a6e4c129-83d4-4587-b0ff-4e9edaf7eb60" ParentLink="ComplexStatement_Statement" LowerBound="27.1" HigherBound="32.1">
+                            <om:Property Name="Expression" Value="SingleMessage = new System.Xml.XmlDocument();&#xD;&#xA;Methodloader = new Sones.Library.SalesOrderSplitter();&#xD;&#xA;Methodloader.Initialize(InputMsg,numberofSplit);&#xD;&#xA;Methodloader.GetMessage(currentSplit);" />
+                            <om:Property Name="ReportToAnalyst" Value="False" />
+                            <om:Property Name="Name" Value="MessageAssignment_1" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="84a8863c-efa8-49b7-a81b-c113a590467d" ParentLink="Construct_MessageRef" LowerBound="25.27" HigherBound="25.40">
+                            <om:Property Name="Ref" Value="SingleMessage" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="12534aa7-d09d-4997-8aab-f2fcf718c454" ParentLink="ComplexStatement_Statement" LowerBound="33.1" HigherBound="35.1">
+                        <om:Property Name="Expression" Value="currentSplit =+ 1;" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Expression_1" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="7ca24e19-1143-4cc3-9fc8-974a60a09819" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="7.1" HigherBound="9.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="SONES.Biztalk.Orchestrations.OrderRequestype" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Rcv_Multiple_address" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="15e533e8-8ec4-488e-8b3c-84962d970b3c" ParentLink="PortDeclaration_CLRAttribute" LowerBound="7.1" HigherBound="8.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module SONES.Biztalk.Orchestrations
+{
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service ProcessMultipleOrderodx
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements OrderRequestype Rcv_Multiple_address;
+        message SONES.Biztalk.Schemas.Customer InputMsg;
+        message SONES.Biztalk.Schemas.Customer SingleMessage;
+        System.Int32 currentSplit;
+        System.Int32 numberofSplit;
+        Sones.Library.SalesOrderSplitter Methodloader;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("549c848a-53ac-42a5-8e21-40c75dbbf20e")]
+            activate ((SONES.Biztalk.Schemas.PropertySchema.StreamSize >= "0"))receive (Rcv_Multiple_address.Operation_1, InputMsg);
+            currentSplit = 1;
+            numberofSplit = 2;
+            Methodloader = new Sones.Library.SalesOrderSplitter();
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("f64f3bf6-6eec-405b-b6d6-abfd696b04de")]
+            while (currentSplit <= numberofSplit )
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("e555f816-c009-42de-ad0d-ec76b6f167ce")]
+                construct SingleMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("a6e4c129-83d4-4587-b0ff-4e9edaf7eb60")]
+                    SingleMessage = new System.Xml.XmlDocument();
+                    Methodloader = new Sones.Library.SalesOrderSplitter();
+                    Methodloader.Initialize(InputMsg,numberofSplit);
+                    Methodloader.GetMessage(currentSplit);
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("12534aa7-d09d-4997-8aab-f2fcf718c454")]
+                currentSplit =+ 1;
+            }
+        }
+    }
+}
+

@@ -4,3 +4,10 @@ C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Orchestrations\obj\Debug\SONES.Biztalk.Orchestrations.pdb
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Schemas.dll
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Log.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Orchestrations.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Orchestrations.pdb
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Log.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\SONES.Biztalk.Schemas.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\obj\Debug\SONES.Biztalk.Orchestrations.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\obj\Debug\SONES.Biztalk.Orchestrations.pdb
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Orchestrations\bin\Debug\Sones.Library.dll

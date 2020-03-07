@@ -49,6 +49,7 @@ namespace SONES.Biztalk.Schemas {
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name=""StreamSize"" type=""xs:string"" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

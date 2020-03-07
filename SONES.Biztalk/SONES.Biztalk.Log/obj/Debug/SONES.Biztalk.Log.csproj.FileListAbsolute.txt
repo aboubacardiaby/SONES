@@ -4,3 +4,9 @@ C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.csprojResolveAssemblyReference.cache
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.dll
 C:\Users\aboub\documents\visual studio 2015\Projects\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.pdb
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\bin\Debug\SONES.Biztalk.Log.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\bin\Debug\SONES.Biztalk.Log.pdb
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.csprojResolveAssemblyReference.cache
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.dll
+C:\BPA\SONES.Biztalk\SONES.Biztalk.Log\obj\Debug\SONES.Biztalk.Log.pdb

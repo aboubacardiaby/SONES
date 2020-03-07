@@ -1,0 +1,16 @@
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Sones.PipelineComponents.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.Streaming.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Sones.Library.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.StreamProcessing.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.FlatFile.Parser.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.XLANGs.RuntimeTypes.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.Messaging.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.CommonSettings.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Microsoft.BizTalk.Interop.Agent.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Sones.Library.pdb
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\obj\Debug\Sones.PipelineComponents.csprojResolveAssemblyReference.cache
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\obj\Debug\Sones.PipelineComponents.dll
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\obj\Debug\Sones.PipelineComponents.pdb
+C:\BPA\SONES.Biztalk\Sones.PipelineComponents\bin\Debug\Sones.PipelineComponents.pdb

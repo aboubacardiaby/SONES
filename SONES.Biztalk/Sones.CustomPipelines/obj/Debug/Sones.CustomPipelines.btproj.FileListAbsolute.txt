@@ -1,0 +1,5 @@
+C:\BPA\SONES.Biztalk\Sones.CustomPipelines\bin\Debug\Sones.CustomPipelines.dll
+C:\BPA\SONES.Biztalk\Sones.CustomPipelines\bin\Debug\Sones.CustomPipelines.pdb
+C:\BPA\SONES.Biztalk\Sones.CustomPipelines\bin\Debug\Sones.PipelineComponents.dll
+C:\BPA\SONES.Biztalk\Sones.CustomPipelines\obj\Debug\Sones.CustomPipelines.dll
+C:\BPA\SONES.Biztalk\Sones.CustomPipelines\obj\Debug\Sones.CustomPipelines.pdb

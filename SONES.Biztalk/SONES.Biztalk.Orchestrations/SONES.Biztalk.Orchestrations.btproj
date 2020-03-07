@@ -88,9 +88,20 @@
       <Project>{290d5691-3ffb-4777-8a23-dbe972488ca8}</Project>
       <Name>SONES.Biztalk.Schemas</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Sones.Library\Sones.Library.csproj">
+      <Project>{49907868-fe44-4599-86ac-e80f3478b2f6}</Project>
+      <Name>Sones.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Test.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <XLang Include="ProcessMultipleOrderodx.odx">
+      <TypeName>ProcessMultipleOrderodx</TypeName>
+      <Namespace>SONES.Biztalk.Orchestrations</Namespace>
+      <SubType>Task</SubType>
+    </XLang>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />

@@ -6,9 +6,8 @@ namespace SONES.Biztalk.Schemas.PropertySchema {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [SchemaType(SchemaTypeEnum.Property)]
-    [Schema(@"https://SONES.Biztalk.Schemas.PropertySchema",@"CustomerId")]
     [System.SerializableAttribute()]
-    [SchemaRoots(new string[] {@"CustomerId"})]
+    [SchemaRoots(new string[] {@"CustomerId", @"StreamSize"})]
     public sealed class PropertySchema : Microsoft.XLANGs.BaseTypes.SchemaBase {
         
         [System.NonSerializedAttribute()]
@@ -29,6 +28,13 @@ namespace SONES.Biztalk.Schemas.PropertySchema {
       </xs:appinfo>
     </xs:annotation>
   </xs:element>
+  <xs:element name=""StreamSize"" type=""xs:string"">
+    <xs:annotation>
+      <xs:appinfo>
+        <b:fieldInfo propertyGuid=""0c4ee358-4eb2-4bdb-97cd-724a03076e7b"" propSchFieldBase=""MessageContextPropertyBase"" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:element>
 </xs:schema>";
         
         public PropertySchema() {
@@ -42,8 +48,9 @@ namespace SONES.Biztalk.Schemas.PropertySchema {
         
         public override string[] RootNodes {
             get {
-                string[] _RootElements = new string [1];
+                string[] _RootElements = new string [2];
                 _RootElements[0] = "CustomerId";
+                _RootElements[1] = "StreamSize";
                 return _RootElements;
             }
         }
@@ -68,6 +75,36 @@ namespace SONES.Biztalk.Schemas.PropertySchema {
         
         [System.NonSerializedAttribute()]
         private static System.Xml.XmlQualifiedName _QName = new System.Xml.XmlQualifiedName(@"CustomerId", @"https://SONES.Biztalk.Schemas.PropertySchema");
+        
+        private static string PropertyValueType {
+            get {
+                throw new System.NotSupportedException();
+            }
+        }
+        
+        public override System.Xml.XmlQualifiedName Name {
+            get {
+                return _QName;
+            }
+        }
+        
+        public override System.Type Type {
+            get {
+                return typeof(string);
+            }
+        }
+    }
+    
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.BizTalk.Schema.Compiler", "3.0.1.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [System.SerializableAttribute()]
+    [PropertyType(@"StreamSize",@"https://SONES.Biztalk.Schemas.PropertySchema","string","System.String")]
+    [PropertyGuidAttribute(@"0c4ee358-4eb2-4bdb-97cd-724a03076e7b")]
+    public sealed class StreamSize : Microsoft.XLANGs.BaseTypes.MessageContextPropertyBase {
+        
+        [System.NonSerializedAttribute()]
+        private static System.Xml.XmlQualifiedName _QName = new System.Xml.XmlQualifiedName(@"StreamSize", @"https://SONES.Biztalk.Schemas.PropertySchema");
         
         private static string PropertyValueType {
             get {

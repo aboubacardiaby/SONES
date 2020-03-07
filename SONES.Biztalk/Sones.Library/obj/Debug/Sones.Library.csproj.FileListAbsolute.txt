@@ -1,0 +1,5 @@
+C:\BPA\SONES.Biztalk\Sones.Library\bin\Debug\Sones.Library.dll
+C:\BPA\SONES.Biztalk\Sones.Library\bin\Debug\Sones.Library.pdb
+C:\BPA\SONES.Biztalk\Sones.Library\obj\Debug\Sones.Library.csprojResolveAssemblyReference.cache
+C:\BPA\SONES.Biztalk\Sones.Library\obj\Debug\Sones.Library.dll
+C:\BPA\SONES.Biztalk\Sones.Library\obj\Debug\Sones.Library.pdb
