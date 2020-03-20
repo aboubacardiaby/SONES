@@ -1,0 +1,6 @@
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\bin\Debug\BindingHelper.exe.config
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\bin\Debug\BindingHelper.exe
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\bin\Debug\BindingHelper.pdb
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\obj\Debug\BindingHelper.csprojResolveAssemblyReference.cache
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\obj\Debug\BindingHelper.exe
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BindingHelper\obj\Debug\BindingHelper.pdb

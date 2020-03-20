@@ -1,0 +1,356 @@
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkOrchestration Exists. Checking Host settings
+This BizTalkOrchestration Exists. Installation skipped this host
+Adding hostinstance BizTalkOrchestration on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkOrchestration64 Exists. Checking Host settings
+This BizTalkOrchestration64 Exists. Installation skipped this host
+Adding hostinstance BizTalkOrchestration64 on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive Exists. Checking Host settings
+This BizTalkReceive Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter FTP
+Adding adapter FTP
+  Succeeded
+FTP ha been succesfully addedd
+ReceiveHandler: FTP already installed
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive64 Exists. Checking Host settings
+This BizTalkReceive64 Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive64 on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter FILE
+Adding adapter FILE
+  Succeeded
+FILE ha been succesfully addedd
+ReceiveHandler: FILE already installed
+Adding adapter MSMQ
+Adding adapter MSMQ
+  Succeeded
+MSMQ ha been succesfully addedd
+ReceiveHandler: MSMQ already installed
+Adding adapter SFTP
+Adding adapter SFTP
+  Succeeded
+SFTP ha been succesfully addedd
+ReceiveHandler: SFTP already installed
+Adding adapter WCF-NetMSMQ
+Adding adapter WCF-NetMSMQ
+  Succeeded
+WCF-NetMSMQ ha been succesfully addedd
+Adding ReceiveHandlerWCF-NetMSMQ
+Adding receive handler for host BizTalkReceive64
+  Error The Host with name "" specified in the HostNameToSwitchTo property could not be loaded.
+
+Internal error: "No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session."
+Successfully added ReceiveHandlerWCF-NetMSMQ
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkServerApplication Exists. Checking Host settings
+  Error The subscription PauseAt has to be greater than subscription ResumeAt.
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkServerApplication Exists. Checking Host settings
+  Error The subscription PauseAt has to be greater than subscription ResumeAt.
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend64 Exists. Checking Host settings
+This BizTalkSend64 Exists. Installation skipped this host
+Adding hostinstance BizTalkSend64 on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter FILE
+Adding adapter FILE
+  Succeeded
+FILE ha been succesfully addedd
+SendHandler: FILE already installed
+Adding adapter HTTP
+Adding adapter HTTP
+  Succeeded
+HTTP ha been succesfully addedd
+SendHandler: HTTP already installed
+Adding adapter MSMQ
+Adding adapter MSMQ
+  Succeeded
+MSMQ ha been succesfully addedd
+SendHandler: MSMQ already installed
+Adding adapter SFTP
+Adding adapter SFTP
+  Succeeded
+SFTP ha been succesfully addedd
+SendHandler: SFTP already installed
+Adding adapter SMTP
+Adding adapter SMTP
+  Succeeded
+SMTP ha been succesfully addedd
+SendHandler: SMTP already installed
+Adding adapter WCF-NetMSMQ
+Adding adapter WCF-NetMSMQ
+  Succeeded
+WCF-NetMSMQ ha been succesfully addedd
+Adding SendHandlerWCF-NetMSMQ
+Adding send handler for host BizTalkSend64
+  Error Failed during call to one of administration components.
+Successfully added SendHanlerWCF-NetMSMQ
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend Exists. Checking Host settings
+This BizTalkSend Exists. Installation skipped this host
+Adding hostinstance BizTalkSend on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter FTP
+Adding adapter FTP
+  Succeeded
+FTP ha been succesfully addedd
+SendHandler: FTP already installed
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This FTPReceive Exists. Checking Host settings
+This FTPReceive Exists. Installation skipped this host
+Adding hostinstance FTPReceive on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter FTP
+Adding adapter FTP
+  Succeeded
+FTP ha been succesfully addedd
+ReceiveHandler: FTP already installed
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive64_MQSC Exists. Checking Host settings
+This BizTalkReceive64_MQSC Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive64_MQSC on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter MQSC
+Adding adapter MQSC
+  Succeeded
+MQSC ha been succesfully addedd
+Adding ReceiveHandlerMQSC
+Adding receive handler for host BizTalkReceive64_MQSC
+  Succeeded
+Successfully added ReceiveHandlerMQSC
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend64_MQSC Exists. Checking Host settings
+This BizTalkSend64_MQSC Exists. Installation skipped this host
+Adding hostinstance BizTalkSend64_MQSC on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter MQSC
+Adding adapter MQSC
+  Succeeded
+MQSC ha been succesfully addedd
+Adding SendHandlerMQSC
+Adding send handler for host BizTalkSend64_MQSC
+  Succeeded
+Successfully added SendHanlerMQSC
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This LoggingReceiveHost Exists. Checking Host settings
+This LoggingReceiveHost Exists. Installation skipped this host
+Adding hostinstance LoggingReceiveHost on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter MSMQ
+Adding adapter MSMQ
+  Succeeded
+MSMQ ha been succesfully addedd
+ReceiveHandler: MSMQ already installed
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend64_SB_Messaging Exists. Checking Host settings
+This BizTalkSend64_SB_Messaging Exists. Installation skipped this host
+Adding hostinstance BizTalkSend64_SB_Messaging on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter SB-Messaging
+Adding adapter SB-Messaging
+  Succeeded
+SB-Messaging ha been succesfully addedd
+Adding SendHandlerSB-Messaging
+Adding send handler for host BizTalkSend64_SB_Messaging
+  Succeeded
+Successfully added SendHanlerSB-Messaging
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive64_SB_Messaging Exists. Checking Host settings
+This BizTalkReceive64_SB_Messaging Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive64_SB_Messaging on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter SB-Messaging
+Adding adapter SB-Messaging
+  Succeeded
+SB-Messaging ha been succesfully addedd
+Adding ReceiveHandlerSB-Messaging
+Adding receive handler for host BizTalkReceive64_SB_Messaging
+  Succeeded
+Successfully added ReceiveHandlerSB-Messaging
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This SFTPReceive64 Exists. Checking Host settings
+This SFTPReceive64 Exists. Installation skipped this host
+Adding hostinstance SFTPReceive64 on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter SFTP
+Adding adapter SFTP
+  Succeeded
+SFTP ha been succesfully addedd
+ReceiveHandler: SFTP already installed
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkServerIsolatedHost Exists. Checking Host settings
+  Error The subscription PauseAt has to be greater than subscription ResumeAt.
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend64_WCF_Custom Exists. Checking Host settings
+This BizTalkSend64_WCF_Custom Exists. Installation skipped this host
+Adding hostinstance BizTalkSend64_WCF_Custom on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter WCF-Custom
+Adding adapter WCF-Custom
+  Succeeded
+WCF-Custom ha been succesfully addedd
+Adding SendHandlerWCF-Custom
+Adding send handler for host BizTalkSend64_WCF_Custom
+  Error You must associate send handler with a BizTalk Host of In-process Host type.
+Successfully added SendHanlerWCF-Custom
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive64_WCF_SQL Exists. Checking Host settings
+This BizTalkReceive64_WCF_SQL Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive64_WCF_SQL on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter WCF-SQL
+Adding adapter WCF-SQL
+  Succeeded
+WCF-SQL ha been succesfully addedd
+Adding ReceiveHandlerWCF-SQL
+Adding receive handler for host BizTalkReceive64_WCF_SQL
+  Error No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Successfully added ReceiveHandlerWCF-SQL
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkReceive64_WCF_OracleDB Exists. Checking Host settings
+This BizTalkReceive64_WCF_OracleDB Exists. Installation skipped this host
+Adding hostinstance BizTalkReceive64_WCF_OracleDB on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter WCF-OracleDB
+Adding adapter WCF-OracleDB
+  Succeeded
+WCF-OracleDB ha been succesfully addedd
+Adding ReceiveHandlerWCF-OracleDB
+Adding receive handler for host BizTalkReceive64_WCF_OracleDB
+  Error No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Successfully added ReceiveHandlerWCF-OracleDB
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000
+This BizTalkSend64_WCF_OracleDB Exists. Checking Host settings
+This BizTalkSend64_WCF_OracleDB Exists. Installation skipped this host
+Adding hostinstance BizTalkSend64_WCF_OracleDB on biztalktst5app1
+and starting it...
+  Error Instance of the WMI class is not found.
+No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Adding adapter WCF-OracleDB
+Adding adapter WCF-OracleDB
+  Succeeded
+WCF-OracleDB ha been succesfully addedd
+Adding SendHandlerWCF-OracleDB
+Adding send handler for host BizTalkSend64_WCF_OracleDB
+  Error No instance was found with the specified key.  This could be the result of the instance being deleted by another BizTalk Admin session.
+Successfully added SendHanlerWCF-OracleDB
+Done!!!

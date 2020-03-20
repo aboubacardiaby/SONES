@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{B1F2E6D4-B319-412A-8204-65530B91B72D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{7269F40A-9B46-4553-8A60-C744FCB8340F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingHelper", "Projects\BindingHelper\BindingHelper.csproj", "{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkConfigLoader", "Projects\BizTalkConfigLoader\BizTalkConfigLoader.csproj", "{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTSControl", "Projects\BTSControl\BTSControl.csproj", "{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{6F906E12-DAB3-42C6-BD11-012F6FBB0F55}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Setup\Product.wxs = Deployment\Setup\Product.wxs
+		Deployment\Setup\Setup.vdproj = Deployment\Setup\Setup.vdproj
+		Deployment\Setup\Setup.wixproj = Deployment\Setup\Setup.wixproj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ia64 = Debug|ia64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ia64 = Release|ia64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|ia64.ActiveCfg = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|ia64.Build.0 = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|ia64.ActiveCfg = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|ia64.Build.0 = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|x64.Build.0 = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476}.Release|x86.Build.0 = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|ia64.ActiveCfg = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|ia64.Build.0 = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|x64.Build.0 = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Debug|x86.Build.0 = Debug|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|ia64.ActiveCfg = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|ia64.Build.0 = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|x64.ActiveCfg = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|x64.Build.0 = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|x86.ActiveCfg = Release|Any CPU
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB}.Release|x86.Build.0 = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|ia64.ActiveCfg = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|ia64.Build.0 = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|ia64.ActiveCfg = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|ia64.Build.0 = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|x64.Build.0 = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC6EF498-3CF8-4C15-8B99-6CD92DBA7476} = {B1F2E6D4-B319-412A-8204-65530B91B72D}
+		{891F7F83-C51A-4E14-BC13-BE0FC76D1BFB} = {B1F2E6D4-B319-412A-8204-65530B91B72D}
+		{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C} = {B1F2E6D4-B319-412A-8204-65530B91B72D}
+		{6F906E12-DAB3-42C6-BD11-012F6FBB0F55} = {7269F40A-9B46-4553-8A60-C744FCB8340F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/owens-minor-commercial
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Projects\\BindingHelper\\BindingHelper.csproj
+		SccProjectTopLevelParentUniqueName1 = OM.BizTalk.Tools.sln
+		SccProjectName1 = Projects/BindingHelper
+		SccLocalPath1 = Projects\\BindingHelper
+		SccProjectUniqueName2 = Projects\\BizTalkConfigLoader\\BizTalkConfigLoader.csproj
+		SccProjectTopLevelParentUniqueName2 = OM.BizTalk.Tools.sln
+		SccProjectName2 = Projects/BizTalkConfigLoader
+		SccLocalPath2 = Projects\\BizTalkConfigLoader
+		SccProjectUniqueName3 = Projects\\BTSControl\\BTSControl.csproj
+		SccProjectTopLevelParentUniqueName3 = OM.BizTalk.Tools.sln
+		SccProjectName3 = Projects/BTSControl
+		SccLocalPath3 = Projects\\BTSControl
+	EndGlobalSection
+EndGlobal

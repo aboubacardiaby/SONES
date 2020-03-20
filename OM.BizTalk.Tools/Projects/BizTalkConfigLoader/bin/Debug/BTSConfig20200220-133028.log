@@ -1,0 +1,5 @@
+Adding 1000
+Adding host setting SubscriptionPauseAt value = 0
+Adding host setting SubscriptionResumeAt value = 0
+Adding host setting ProcessMemoryThreshold value = 100
+Adding host setting MessageDeliveryOverdriveFactor value = 300000

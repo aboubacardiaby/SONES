@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3C16630-D1E2-4C5B-9C14-1B9C76AA2D2C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTSControl</RootNamespace>
+    <AssemblyName>BTSControl</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.BizTalk.Admin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.Admin\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.BtsDbVersion, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.BtsDbVersion\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.BtsDbVersion.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.Deployment, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.Deployment\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.ExplorerOM, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft BizTalk Server 2016\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.MSIManager, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.MSIManager\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.MSIManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.Operations, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.BizTalk.Operations\v4.0_3.0.1.0__31bf3856ad364e35\Microsoft.BizTalk.Operations.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\Command.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandException.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandFactory.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineArgDescriptor.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineArgDescriptorList.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineArgumentException.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineHelper.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineParser.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineResources.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandResources.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandResult.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\ConsoleColorChanger.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\ConsoleColorManager.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\ConsoleHelper.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\FullStopApplicationCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\GetInstanceCountCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\HelpCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\MethodTracer.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\ParameterHelper.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\ParameterName.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\PartialStopApplicationCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\Program.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\RestartHostInstancesCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\StartApplicationCommand.cs" />
+    <Compile Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\StringResources.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandLineResources.resx">
+      <DependentUpon>CommandLineResources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\CommandResources.resx">
+      <DependentUpon>CommandResources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft.BizTalk.ApplicationDeployment.CommandLine\StringResources.resx">
+      <DependentUpon>StringResources.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

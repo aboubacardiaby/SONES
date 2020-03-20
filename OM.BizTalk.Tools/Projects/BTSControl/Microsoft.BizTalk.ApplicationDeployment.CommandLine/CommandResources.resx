@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_Commands" xml:space="preserve">
+    <value>Commands:</value>
+  </data>
+  <data name="ParamDesc_EnvironmentFolder" xml:space="preserve">
+    <value>Optional. The location containing the various staging environment specific bindings.</value>
+  </data>
+  <data name="ParamDesc_DestinationBindings" xml:space="preserve">
+    <value>Required. Path and file name of the XML binding file to write.</value>
+  </data>
+  <data name="DatabaseInvalid" xml:space="preserve">
+    <value>Invalid database name "{0}".</value>
+  </data>
+  <data name="ParamDesc_ApplicationName_Req" xml:space="preserve">
+    <value>Required. The name of the BizTalk application.</value>
+  </data>
+  <data name="ListTypeOutputNotes" xml:space="preserve">
+    <value>Notes: It is not necessary to specify the fully qualified name of a type.
+Abbreviate a type name by not specifying the prefix "System.BizTalk:".</value>
+  </data>
+  <data name="Command_BTSControl.exe.Description" xml:space="preserve">
+    <value>Performs BizTalk application deployment tasks.</value>
+  </data>
+  <data name="ProgramUsage" xml:space="preserve">
+    <value>BTSControl.exe &lt;Command&gt; [[&lt;Parameter&gt;] ...]</value>
+  </data>
+  <data name="Label_Parameters" xml:space="preserve">
+    <value>Parameters:</value>
+  </data>
+  <data name="UnableToValidateDatabase" xml:space="preserve">
+    <value>Unable to validate the given database "{0}" and server "{1}".</value>
+  </data>
+  <data name="ApplicationNotInstalledByBTS" xml:space="preserve">
+    <value>The given application package "{0}" is not installed by BizTalk. Verify the given application name and try again.</value>
+  </data>
+  <data name="PropertyExists" xml:space="preserve">
+    <value>Property "{0}" already specified.</value>
+  </data>
+  <data name="ParamDesc_Description" xml:space="preserve">
+    <value>Optional. A description of the BizTalk application.</value>
+  </data>
+  <data name="ResourceInvalidInApplication" xml:space="preserve">
+    <value>Resource '{0}' is either invalid or not part of the application '{1}'.</value>
+  </data>
+  <data name="Command_BTSControl.exe.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated.</value>
+  </data>
+  <data name="Label_Example" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="EmptyResourceSpec" xml:space="preserve">
+    <value>The given resource spec file "{0}" does not contain any resources.</value>
+  </data>
+  <data name="ParamDesc_ApplicationName" xml:space="preserve">
+    <value>Optional. The name of the BizTalk application.</value>
+  </data>
+  <data name="ParamDesc_Options" xml:space="preserve">
+    <value>Optional. List of resource options.</value>
+  </data>
+  <data name="IncompatibleDbVersion" xml:space="preserve">
+    <value>The database version is incompatible with the installed version of this product.</value>
+  </data>
+  <data name="CommandUsageHint" xml:space="preserve">
+    <value>Use {0} /? for command help.</value>
+  </data>
+  <data name="PropertyNameInvalid" xml:space="preserve">
+    <value>Invalid property name specified for -Property:{0}.</value>
+  </data>
+  <data name="ServerInvalid" xml:space="preserve">
+    <value>Invalid server name "{0}".</value>
+  </data>
+  <data name="UnknownCommand" xml:space="preserve">
+    <value>Unknown command "{0}". Use /? for help.</value>
+  </data>
+  <data name="ParamDesc_Database" xml:space="preserve">
+    <value>Optional. The name of the BizTalk configuration database.</value>
+  </data>
+  <data name="Command_BTSControl.exe.Example" xml:space="preserve">
+    <value>BTSControl.exe &lt;Command&gt; [[-Name:Value] ...]
+  For help on command: BTSControl.exe &lt;Command&gt; /?</value>
+  </data>
+  <data name="ParamDesc_GlobalParties" xml:space="preserve">
+    <value>Optional. If specified, the global party information for the group is exported.</value>
+  </data>
+  <data name="ParamDesc_RequiredApplicationName" xml:space="preserve">
+    <value>Required. The name of the BizTalk application.</value>
+  </data>
+  <data name="SystemFlag" xml:space="preserve">
+    <value> -System</value>
+  </data>
+  <data name="Label_Usage" xml:space="preserve">
+    <value>Usage:</value>
+  </data>
+  <data name="Label_Notes" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="ParamDesc_OptionalLuid" xml:space="preserve">
+    <value>Optional. Locally unique identifier of the resource.</value>
+  </data>
+  <data name="ParamDesc_Property" xml:space="preserve">
+    <value>Optional. Zero or more resource properties. Value takes the form Name=Value.</value>
+  </data>
+  <data name="ListTypeOutputPreamble" xml:space="preserve">
+    <value>Supported types are:</value>
+  </data>
+  <data name="ParameterMissing" xml:space="preserve">
+    <value>Required parameter "{0}" is not specified.</value>
+  </data>
+  <data name="ApplicationNotFound" xml:space="preserve">
+    <value>Application "{0}" not found.</value>
+  </data>
+  <data name="OptionSpecifiedTwice" xml:space="preserve">
+    <value>Option "{0}" is specified more than once. Ignoring duplicate options.</value>
+  </data>
+  <data name="DefaultServerDatabaseFailed" xml:space="preserve">
+    <value>Failed to obtain default values for Server and Database. Specify these parameters on the command line.</value>
+  </data>
+  <data name="ParamDesc_Package" xml:space="preserve">
+    <value>Required. The path and file name of the Windows Installer package.</value>
+  </data>
+  <data name="ParamDesc_AssemblyName" xml:space="preserve">
+    <value>Optional. The full name of the BizTalk assembly.</value>
+  </data>
+  <data name="CommandSupportsNoParam" xml:space="preserve">
+    <value>This command does not support any parameters.</value>
+  </data>
+  <data name="ParamDesc_Default" xml:space="preserve">
+    <value>Optional. Makes the application the default application.</value>
+  </data>
+  <data name="ParamDesc_OverwriteResources" xml:space="preserve">
+    <value>Optional. Update existing resources. If not specified and resource exists, import will fail.</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Invalid value specified for parameter "{0}".</value>
+  </data>
+  <data name="ParamDesc_OverwriteResource" xml:space="preserve">
+    <value>Optional. Update existing resource. If not specified and resource exists, add will fail.</value>
+  </data>
+  <data name="ParamDesc_Destination" xml:space="preserve">
+    <value>Optional. The 'DestinationLocation' property of the resource.</value>
+  </data>
+  <data name="InvalidResources" xml:space="preserve">
+    <value>The following resources failed to export.  They are either invalid or missing in application '{0}'.</value>
+  </data>
+  <data name="ProgramUsageHint" xml:space="preserve">
+    <value>Use {0} /? for program help.</value>
+  </data>
+  <data name="ParamDesc_Luid" xml:space="preserve">
+    <value>Required. Locally unique identifier of the resource.</value>
+  </data>
+  <data name="ParamDesc_Type" xml:space="preserve">
+    <value>Required. The type of resource. (Example: -Type:"System.BizTalk:BizTalkAssembly")</value>
+  </data>
+  <data name="DatabaseNotSpecified" xml:space="preserve">
+    <value>Server was specified. Database is required.</value>
+  </data>
+  <data name="ExtraUnnamedArguments" xml:space="preserve">
+    <value>Extra unnamed arguments: {0}.</value>
+  </data>
+  <data name="ParamDesc_GroupLevelImport" xml:space="preserve">
+    <value>Optional. If specified, ports in the binding file are imported into their associated applications. If not specified, all ports are imported into the specified application or default application if an application name is not specified.</value>
+  </data>
+  <data name="ParamDesc_ResourceSpec" xml:space="preserve">
+    <value>Optional. The path and file name of the resource specification XML file.</value>
+  </data>
+  <data name="ParamDesc_SourceBindings" xml:space="preserve">
+    <value>Required. The path and file name of the XML binding file to read.</value>
+  </data>
+  <data name="ParamDesc_GroupLevelExport" xml:space="preserve">
+    <value>Optional. If specified, all bindings in the current group are exported.</value>
+  </data>
+  <data name="DefaultFlag" xml:space="preserve">
+    <value> -Default</value>
+  </data>
+  <data name="ParamDesc_Environment" xml:space="preserve">
+    <value>Optional. The staging environment to deploy.</value>
+  </data>
+  <data name="ParamDesc_Server" xml:space="preserve">
+    <value>Optional. The name of SQL server hosting the BizTalk configuration database.</value>
+  </data>
+  <data name="ParamDesc_Source" xml:space="preserve">
+    <value>Required. The 'SourceLocation' property of the resource.</value>
+  </data>
+  <data name="StartApplication" xml:space="preserve">
+    <value>Starting BizTalk application "{0}", configuration database (server="{1}", database="{2}")...</value>
+  </data>
+  <data name="StartApplicationSuccess" xml:space="preserve">
+    <value>Started application "{0}".</value>
+  </data>
+  <data name="Command_StartApp.Description" xml:space="preserve">
+    <value>Starts a BizTalk application.</value>
+  </data>
+  <data name="Command_StartApp.Example" xml:space="preserve">
+    <value>StartApp -ApplicationName:MyApp</value>
+  </data>
+  <data name="Command_StartApp.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated.
+Database must be specified if server is specified.</value>
+  </data>
+  <data name="Command_FullStopApp.Description" xml:space="preserve">
+    <value>Completely stops a BizTalk application.</value>
+  </data>
+  <data name="Command_FullStopApp.Example" xml:space="preserve">
+    <value>FullStopApp -ApplicationName:MyApp</value>
+  </data>
+  <data name="Command_FullStopApp.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated.</value>
+  </data>
+  <data name="Command_PartialStopApp.Description" xml:space="preserve">
+    <value>Partially stops a BizTalk application (Disables receive locations only).</value>
+  </data>
+  <data name="Command_PartialStopApp.Example" xml:space="preserve">
+    <value>PartialStopApp -ApplicationName:MyApp</value>
+  </data>
+  <data name="Command_PartialStopApp.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated.
+Database must be specified if server is specified.</value>
+  </data>
+  <data name="Command_RestartHostInstances.Description" xml:space="preserve">
+    <value>Restarts all host instances related to a BizTalk application.</value>
+  </data>
+  <data name="Command_RestartHostInstances.Example" xml:space="preserve">
+    <value>RestartHostInstances -ApplicationName:MyApp</value>
+  </data>
+  <data name="Command_RestartHostInstances.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated.
+Database must be specified if server is specified.</value>
+  </data>
+  <data name="FullStopApplication" xml:space="preserve">
+    <value>Completely stopping BizTalk application "{0}", configuration database (server="{1}", database="{2}")...</value>
+  </data>
+  <data name="FullStopApplicationSuccess" xml:space="preserve">
+    <value>Completely stopped application "{0}".</value>
+  </data>
+  <data name="PartialStopApplication" xml:space="preserve">
+    <value>Partially stopping BizTalk application "{0}" (disabling receive locations only), configuration database (server="{1}", database="{2}")...</value>
+  </data>
+  <data name="PartialStopApplicationSuccess" xml:space="preserve">
+    <value>Partially stopped application "{0}".</value>
+  </data>
+  <data name="RestartHostInstances" xml:space="preserve">
+    <value>Restarting all related host instances for BizTalk application "{0}", configuration database (server="{1}", database="{2}")...</value>
+  </data>
+  <data name="RestartHostInstancesSuccess" xml:space="preserve">
+    <value>Restarted all related host instances for application "{0}".</value>
+  </data>
+  <data name="Command_GetInstanceCount.Description" xml:space="preserve">
+    <value>Gets the total instance count for the supplied BizTalk application.</value>
+  </data>
+  <data name="Command_GetInstanceCount.Example" xml:space="preserve">
+    <value>GetInstanceCount -ApplicationName:MyApp</value>
+  </data>
+  <data name="Command_GetInstanceCount.Notes" xml:space="preserve">
+    <value>Parameter names are not case-sensitive and may be abbreviated. InstanceCount is both printed to the console as well as passed as the exit code to the program.</value>
+  </data>
+  <data name="GetInstanceCount" xml:space="preserve">
+    <value>Getting instance count for BizTalk application "{0}", configuration database (server="{1}", database="{2}")...</value>
+  </data>
+  <data name="GetInstanceCountSuccess" xml:space="preserve">
+    <value>Application "{0}" currently has {1} service instance(s) associated with it.</value>
+  </data>
+</root>

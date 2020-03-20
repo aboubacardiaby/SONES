@@ -1,0 +1,16 @@
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\BizTalkConfigLoader.exe.config
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\BizTalkConfigLoader.exe
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\BizTalkConfigLoader.pdb
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\obj\Debug\BizTalkConfigLoader.exe
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\obj\Debug\BizTalkConfigLoader.pdb
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.BizTalk.ExplorerOM.dll
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.XLANGs.BizTalk.Engine.dll
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.XLANGs.Engine.dll
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Microsoft.BizTalk.ExplorerOM.xml
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\obj\Debug\BizTalkConfigLoader.csprojResolveAssemblyReference.cache
+C:\tfs\OMBizTalk\2016\Main\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\Lower_Default_Host_Bt2016.xml
+F:\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\bin\Debug\BizTalkConfigLoader.exe.config
+F:\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\obj\Debug\BizTalkConfigLoader.exe
+F:\OM.BizTalk.Tools\Projects\BizTalkConfigLoader\obj\Debug\BizTalkConfigLoader.pdb

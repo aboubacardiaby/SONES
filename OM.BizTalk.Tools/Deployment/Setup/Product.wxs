@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="5af30725-d99e-4a5f-a0fa-069b66564ff7" Name="OM.BizTalk.Tools" Language="1033" Version="1.0.0.0" Manufacturer="OwensMinor" UpgradeCode="f8b667c0-faf9-4f23-89f4-7d36c8e247e6">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+		<MajorUpgrade DowngradeErrorMessage="A newer version of OM.BizTalk.Tools is already installed." />
+		<MediaTemplate />
+   
+		<!-- Directory structure -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+   			<Directory Id="APPLICATIONROOTDIRECTORY" Name="OM.BizTalk.Tools">
+				  <Directory Id="BINDINGHELPERDIRECTORY" Name="BindingHelper" />
+				  <Directory Id="BIZTALKCONFIGLOADERDIRECTORY" Name="BizTalkConfigLoader" />
+				  <Directory Id="BTSCONTROLDIRECTORY" Name="BTSControl" />
+          <!-- IF adding a new project to the solution add a directory for it on the install here ff     -->  
+			  </Directory>
+      </Directory>  
+		</Directory>
+
+		<!-- Components to add -->
+		<DirectoryRef Id="BINDINGHELPERDIRECTORY">
+			<Component Id="BindingHelper.exe_Component" Guid="a1b1f0d8-4177-459c-a8dc-a9e4c83f49a2">
+				<File Id="BindingHelper.exe" Source="..\..\..\..\Projects\BindingHelper\bin\$(var.Configuration)\BindingHelper.exe" KeyPath="no" Checksum="no"/>
+			</Component>
+			<Component Id="BindingHelper.exe.config_Component" Guid="616c88d2-298a-4d0b-88a8-9dccc6cb60ed">
+				<File Id="BindingHelper.exe.config" Source="..\..\..\..\Projects\BindingHelper\bin\$(var.Configuration)\BindingHelper.exe.config" KeyPath="no" Checksum="no"/>
+			</Component>
+		</DirectoryRef>
+		<DirectoryRef Id="BIZTALKCONFIGLOADERDIRECTORY">
+			<Component Id="BizTalkConfigLoader.exe_Component" Guid="ef244d4f-6139-4163-89c6-99cf238c2007">
+				<File Id="BizTalkConfigLoader.exe" Source="..\..\..\..\Projects\BizTalkConfigLoader\bin\$(var.Configuration)\BizTalkConfigLoader.exe" KeyPath="no" Checksum="no"/>
+			</Component>
+			<Component Id="BizTalkConfigLoader.exe.config_Component" Guid="ebd1a663-6a40-4460-baa8-209886a3fe3a">
+				<File Id="BizTalkConfigLoader.exe.config" Source="..\..\..\..\Projects\BizTalkConfigLoader\bin\$(var.Configuration)\BizTalkConfigLoader.exe.config" KeyPath="no" Checksum="no"/>
+			</Component>
+      <Component Id="Lower_Default_Host_Bt2016_Component" Guid="E3F35299-740E-4E6A-85E4-CA2CCD57B779">
+        <File Id="Lower_Default_Host_Bt2016.xml" Source="..\..\..\..\Projects\BizTalkConfigLoader\bin\$(var.Configuration)\Lower_Default_Host_Bt2016.xml" KeyPath="no" Checksum="no"/>
+      </Component>
+		</DirectoryRef>
+		<DirectoryRef Id="BTSCONTROLDIRECTORY">
+			<Component Id="BTSControl.exe_Component" Guid="e0606735-9bb6-4698-9480-05e9c016f67e">
+				<File Id="BTSControl.exe" Source="..\..\..\..\Projects\BTSControl\bin\$(var.Configuration)\BTSControl.exe" KeyPath="no" Checksum="no"/>
+			</Component>
+			<Component Id="BTSControl.exe.config_Component" Guid="66b40eb7-bd2e-4ef6-b83b-3147f303397b">
+				<File Id="BTSControl.exe.config" Source="..\..\..\..\Projects\BTSControl\bin\$(var.Configuration)\BTSControl.exe.config" KeyPath="no" Checksum="no"/>
+			</Component>
+		</DirectoryRef>
+    <!-- IF adding a new project then add a <DirectoryRef> -->
+      
+
+		<!-- Features  -->
+		<Feature Id="OM.BizTalk.Tools" Title="OM.BizTalk.Tools" Level="1">
+			<ComponentRef Id="BindingHelper.exe_Component" />
+			<ComponentRef Id="BindingHelper.exe.config_Component" />
+			<ComponentRef Id="BizTalkConfigLoader.exe_Component" />
+			<ComponentRef Id="BizTalkConfigLoader.exe.config_Component" />
+			<ComponentRef Id="BTSControl.exe_Component" />
+			<ComponentRef Id="BTSControl.exe.config_Component" />
+      <ComponentRef Id="Lower_Default_Host_Bt2016_Component" />
+      <!-- IF adding a new project then add components -->
+		</Feature>
+	</Product>
+</Wix>

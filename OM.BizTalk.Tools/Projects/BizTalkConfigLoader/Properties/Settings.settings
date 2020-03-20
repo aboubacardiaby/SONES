@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BizTalkConfigLoader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="runRemove" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="defaultUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OMI/adiaby</Value>
+    </Setting>
+    <Setting Name="defaultPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nreyork5%</Value>
+    </Setting>
+    <Setting Name="Configfile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\adiaby\AppData\Local\Temp\_SchemaData\Hostconfiguration_output.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
