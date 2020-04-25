@@ -6,7 +6,7 @@
   Created: 4/25/2020 05:33 PM
 -->
 <settings>
-  <!--Environment: Production-->
+  <!--Environment: BiztalkdevVM-->
   <property name="SsoAppUserGroup">BizTalk Application Users</property>
   <property name="SsoAppAdminGroup">BizTalk Server Administrators</property>
   <property name="Rcv_Ord_Req">C:\Sones\Rcv_Order_Request</property>
